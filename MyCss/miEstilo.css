@@ -1,0 +1,76 @@
+/* selector Universalr*/
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+header {
+    background-color: rgb(47, 192, 228);
+}
+
+/* selectores descendentes*/
+article p span{
+    font-size: xx-large;
+    color: rgb(160, 247, 242);
+    font-family: tahoma;
+    font-weight: bold;
+}
+
+/* selector de Clase*/
+.miClase{
+    background-color: rgb(248, 157, 236);
+}
+
+#menu{
+    background-color: rgb(113, 204, 247);
+    color: black;
+}
+
+/*selector Adyacente*/
+
+h1+p{
+    text-decoration: underline;
+}
+
+#miP{
+    text-decoration: none;
+}
+
+/*selector pseudocodigo*/
+
+a:hover{
+    background-color: black;
+    color: yellow;
+}
+
+.miA:hover, .miBhover {
+    color: red;
+}
+
+.miA:visited, .miB:link {
+    background-color: blueviolet;
+    color: aqua;
+}
+
+img:hover{
+    opacity: 0;
+}
+
+
+footer p::before{
+    content: url(/MyCss/Imagen1.jpg)
+}
+
+.miClase::first-line{
+    font-size: 20px;
+    color: red;
+}
+.i{
+    display: block;
+}
+
+@font-face{
+    font-family: mijuan;
+    src: url(/MyCss/fonts/PermanentMarker-Regular.ttf);
+}
